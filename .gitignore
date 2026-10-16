@@ -1,0 +1,26 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.tgz
+.eslintcache
+playwright-report/
+test-results/
+
+.env
+.env.*
+!.env.example
+
+# Runtime credentials and browser state
+data/
+**/auth.json
+**/.api-key
+**/sessions.json
+**/chrome-profile/
+_reference/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
